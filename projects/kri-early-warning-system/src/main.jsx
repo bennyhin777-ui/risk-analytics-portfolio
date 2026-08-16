@@ -1,16 +1,14 @@
 import { useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import './styles.css';
-
-const kriRows = [
-  { name: 'Chargeback rate', value: '1.84%', change: '+0.42%', level: 'Breach', owner: 'Payments ops' },
-  { name: 'Manual review backlog', value: '1,284', change: '+18.2%', level: 'Watch', owner: 'Risk operations' },
-  { name: 'Reconciliation breaks', value: '23', change: '-12.0%', level: 'Healthy', owner: 'Finance controls' },
-  { name: 'Failed payment rate', value: '3.26%', change: '+0.08%', level: 'Watch', owner: 'Product' },
-];
+import { kriData } from './projectData';
 
 function App() {
+  const [period, setPeriod] = useState('30 days');
   const [toast, setToast] = useState('');
+
+  const data = kriData[period];
+  const levelClass = data.level.toLowerCase();
 
   function showToast(message) {
     setToast(message);
@@ -30,29 +28,34 @@ function App() {
         <section className="hero">
           <p className="kicker">Operational resilience</p>
           <h1>Connect operational signals to owners and <em>actions.</em></h1>
-          <p className="hero-lede">Monitor key risk indicators before a small issue becomes a customer-impacting event. Each indicator has an owner, a level, and a clear next action.</p>
+          <p className="hero-lede">Monitor key risk indicators before a small issue becomes a customer-impacting event. Each indicator has an owner, a level, and a clear next action. Switch between 7, 30, and 90 days to see how indicators evolve.</p>
         </section>
 
         <section style={{ paddingTop: 20 }}>
           <div className="section-heading">
             <div><p className="kicker">Control room</p><h2>Key risk indicators</h2></div>
-            <p className="section-note">Overall operating health with owner-assigned indicators, threshold tracking, and action digest generation.</p>
+            <p className="section-note">Overall operating health with owner-assigned indicators, threshold tracking, and action digest generation. Every value, level, and trend updates with the selected period.</p>
           </div>
           <div className="kri-demo">
+            <div className="kri-period-bar">
+              <div className="segmented">
+                {['7 days','30 days','90 days'].map((item) => <button key={item} className={period === item ? 'selected' : ''} onClick={() => setPeriod(item)}>{item}</button>)}
+              </div>
+            </div>
             <div className="kri-summary">
               <div>
                 <span>Overall operating health</span>
-                <strong>Watch</strong>
-                <p>One leading indicator has breached its threshold. Two owners have open actions.</p>
+                <strong className={`kri-level-${levelClass}`}>{data.level}</strong>
+                <p>{data.summary}</p>
               </div>
-              <div className="health-ring"><span>72</span><small>/100</small></div>
+              <div className={`health-ring ring-${levelClass}`}><span>{data.health}</span><small>/100</small></div>
             </div>
             <div className="kri-table">
               <div className="card-title">
-                <div><span>Control room</span><strong>Key risk indicators</strong></div>
-                <button className="text-link" onClick={() => showToast('Action digest prepared for the weekly risk review.')}>Create action digest →</button>
+                <div><span>Control room</span><strong>Key risk indicators — {period}</strong></div>
+                <button className="text-link" onClick={() => showToast(`Action digest prepared for the ${period} risk review.`)}>Create action digest →</button>
               </div>
-              {kriRows.map((row) => (
+              {data.rows.map((row) => (
                 <div className="kri-row" key={row.name}>
                   <span className={`level-dot ${row.level.toLowerCase()}`} />
                   <div className="kri-name"><strong>{row.name}</strong><span>{row.owner}</span></div>
