@@ -654,6 +654,9 @@ td small { color: var(--muted); font-size: 8px; margin-top: 4px; }
 .plc-link { color: var(--teal); font: 600 10px var(--mono); display: flex; align-items: center; gap: 4px; }
 .plc-link span { font-size: 9px; }
 
+.additional-repos-heading { margin-top: 40px; margin-bottom: 20px; }
+.additional-repos-heading h3 { font-family: var(--serif); font-size: 20px; font-weight: 600; margin: 8px 0 0; letter-spacing: -0.02em; }
+
 .portfolio-link-row {
   display: flex;
   align-items: center;
