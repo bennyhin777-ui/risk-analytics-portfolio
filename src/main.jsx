@@ -82,7 +82,7 @@ function App() {
         <nav className="topnav" aria-label="Primary navigation">
           <a href="#work">Projects</a><a href="#projects">Source code</a><a href="#experience">Experience</a><a href="#about">About</a><a href="#contact">Contact</a>
         </nav>
-        <a className="outline-button" href="/Bennyhin_Bapanapalli_Resume.pdf" download>Download resume <span>↗</span></a>
+        <a className="outline-button" href="/Bennyhin_Bapanapalli_Resume_ATS_(1).pdf" download>Download resume <span>↗</span></a>
       </header>
 
       <main id="top">
@@ -122,7 +122,7 @@ function App() {
 
         <section className="contact-section page-width" id="contact"><div className="contact-card"><div><p className="kicker">Open to the right challenge</p><h2>Let’s build safer, smarter systems.</h2><p>Risk strategy, fraud analytics, AI business analysis, and operational decision support.</p><a className="contact-email" href={PORTFOLIO_URL} target="_blank" rel="noreferrer">{PORTFOLIO_URL} ↗</a></div><a className="primary-button" href={contactHref}>Start a conversation <span>→</span></a></div></section>
       </main>
-      <footer className="footer page-width"><span>© 2026 Bennyhin Bapanapalli</span><span>Payments risk · AI business analysis · Operational intelligence</span><span><a href={PORTFOLIO_URL} target="_blank" rel="noreferrer">{PORTFOLIO_URL}</a> · <a href="/Bennyhin_Bapanapalli_Resume.pdf" download>Download PDF ↗</a></span></footer>
+      <footer className="footer page-width"><span>© 2026 Bennyhin Bapanapalli</span><span>Payments risk · AI business analysis · Operational intelligence</span><span><a href={PORTFOLIO_URL} target="_blank" rel="noreferrer">{PORTFOLIO_URL}</a> · <a href="/Bennyhin_Bapanapalli_Resume_ATS_(1).pdf" download>Download PDF ↗</a></span></footer>
       {toast && <div className="toast">{toast}</div>}
     </div>
   );
