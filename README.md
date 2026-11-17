@@ -1,49 +1,33 @@
-# Bennyhin Bapanapalli — Risk & AI Business Analytics Portfolio
+# Benny Hinn — AI Engineer Portfolio
 
-A working portfolio of four interactive projects for risk, fraud, payments, and AI business analysis roles. Each project is a live, interactive demo — not a static screenshot.
+A working portfolio of four interactive AI engineering projects for banking and financial-services teams. Each project is a live product demonstration focused on trustworthy AI delivery, not a static screenshot.
 
-## Live projects
+## Projects
 
-### 1. Payment Risk Command Center (Flagship)
-A decision workspace that balances fraud loss, approval rate, and customer friction across payment rails.
-- Risk signal trend chart
-- Exposure mix by rail (Card, ACH, Real-time)
-- Transaction decision queue with searchable, color-coded risk scores
-- Portfolio health metrics
+### 1. Banking AI Operations Command Center
+AI observability workspace for model quality, retrieval health, latency, cost, and review queues across banking workflows.
 
-### 2. Fraud Policy Simulator
-Test policy changes before they reach production.
-- Adjustable risk-score threshold
-- Live projected impact on approvals, fraud prevented, and review volume
-- Recommended operating point with rationale
+### 2. Banking LLM Guardrail Simulator
+Responsible-AI lab for exploring the tradeoffs between groundedness, response speed, compute cost, refusal behavior, and human oversight.
 
-### 3. Requirements-to-Risk Analyst (AI Business Analysis)
-Turn messy stakeholder language into structured, reviewable output.
-- Stakeholder transcript input with detected intents and risk tensions
-- AI-generated user stories, risk controls, and clarification questions
-- Human review interface with export
+### 3. Banking AI Requirements Copilot
+Human-in-the-loop product discovery tool that turns stakeholder conversations into AI user stories, RAG controls, evaluation criteria, and governance questions.
 
-### 4. KRI Early-Warning System (Operational Resilience)
-Monitor operational risk indicators before they escalate.
-- Health score with breach/watch/healthy levels
-- Owner-assigned indicators with threshold tracking
-- Action digest generation
+### 4. Banking AI Model-Risk Early Warning
+MLOps and responsible-AI control room for monitoring hallucinations, retrieval failures, inference reliability, drift, privacy signals, and action ownership.
 
-## Tech stack
+## Tech focus
+
 - React + Vite
-- Manrope + DM Mono typography
-- Custom design system (teal/amber/blue/coral on deep navy)
-- Fully responsive
-
-## Getting started
-```bash
-npm install
-npm run dev      # local development
-npm run build    # production build
-npm run preview  # preview production build
-```
+- Generative AI and LLM application architecture
+- RAG, embeddings, hybrid search, and evaluation
+- Agentic workflows and tool calling
+- Python APIs, microservices, and cloud deployment patterns
+- MLOps, monitoring, guardrails, and responsible AI
+- Responsive product design for banking operations
 
 ## About
-Built by Bennyhin Bapanapalli — 4+ years in payments risk, fraud analytics, and business analysis across Stripe, Coinbase, and Amazon environments. This portfolio demonstrates the end-to-end workflow: find the signal, explain the tradeoff, turn insight into action.
 
-© 2026 Bennyhin Bapanapalli
+Built by Benny Hinn, an AI Product Engineer focused on production-grade generative AI and machine learning products across banking operations, customer service, compliance, and risk.
+
+© 2026 Benny Hinn

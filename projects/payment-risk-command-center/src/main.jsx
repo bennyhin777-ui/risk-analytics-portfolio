@@ -24,36 +24,36 @@ function App() {
       <header className="topbar">
         <a className="brand" href="#top">
           <span className="brand-mark">PR</span>
-          <span><strong>Payment Risk Command Center</strong><small>Fraud loss · Approval rate · Customer friction</small></span>
+          <span><strong>Banking AI Operations Command Center</strong><small>AI quality · Retrieval health · Model operations</small></span>
         </a>
       </header>
 
       <main id="top" className="page-width" style={{ paddingTop: 40 }}>
         <section className="hero">
           <div className="hero-copy">
-            <p className="kicker"><span className="status-dot" style={{ display: 'inline-block', width: 6, height: 6, borderRadius: '50%', background: 'var(--teal)', boxShadow: '0 0 12px var(--teal)', marginRight: 7 }} /> Live decision workspace</p>
-            <h1>Balance fraud loss, approval rate, and <em>customer friction.</em></h1>
-            <p className="hero-lede">A command center for monitoring portfolio exposure across payment rails, triaging transaction risk signals, and acting before loss compounds.</p>
+            <p className="kicker"><span className="status-dot" style={{ display: 'inline-block', width: 6, height: 6, borderRadius: '50%', background: 'var(--teal)', boxShadow: '0 0 12px var(--teal)', marginRight: 7 }} /> Live AI operations workspace</p>
+            <h1>Make banking AI <em>observable and trustworthy.</em></h1>
+            <p className="hero-lede">Monitor retrieval quality, model behavior, latency, cost, and operational signals across customer service, compliance, and risk workflows.</p>
           </div>
           <div className="hero-art" aria-label="Analytics overview illustration">
             <div className="glow" />
             <div className="orbit orbit-one" />
             <div className="orbit orbit-two" />
             <div className="signal-card">
-              <div className="signal-head"><span>LIVE SIGNAL MAP</span><i>●</i></div>
+              <div className="signal-head"><span>LIVE AI SYSTEM</span><i>●</i></div>
               <div className="signal-number">92<span>/100</span></div>
-              <div className="signal-label">Portfolio risk index</div>
+              <div className="signal-label">Answer groundedness</div>
               <div className="mini-chart"><span style={{height:'35%'}}/><span style={{height:'49%'}}/><span style={{height:'42%'}}/><span style={{height:'66%'}}/><span style={{height:'58%'}}/><span style={{height:'82%'}}/><span style={{height:'71%'}}/><span style={{height:'91%'}}/></div>
               <div className="signal-footer"><span>Signal confidence</span><strong>High</strong></div>
             </div>
-            <div className="floating-tag tag-top">+18.4% <small>loss avoided</small></div>
-            <div className="floating-tag tag-bottom">2,847 <small>events scored</small></div>
+            <div className="floating-tag tag-top">94% <small>grounded answers</small></div>
+            <div className="floating-tag tag-bottom">99.2% <small>service uptime</small></div>
           </div>
         </section>
 
         <section style={{ paddingTop: 60 }}>
           <div className="section-heading">
-            <div><p className="kicker">Command center</p><h2>Transaction risk dashboard</h2></div>
+            <div><p className="kicker">AI observability</p><h2>Banking model operations dashboard</h2></div>
             <p className="section-note">Searchable decision queue, portfolio exposure by rail, and risk-signal trend over the selected period. Switch between 7, 30, and 90 days to see how every metric, chart, and queue changes.</p>
           </div>
           <div className="dashboard">
@@ -126,8 +126,8 @@ function App() {
         </section>
 
         <footer className="footer page-width">
-          <span>© 2026 Bennyhin Bapanapalli</span>
-          <span>Payment Risk Command Center</span>
+          <span>© 2026 Benny Hinn</span>
+          <span>Banking AI Operations Command Center</span>
         </footer>
       </main>
       {toast && <div className="toast">{toast}</div>}

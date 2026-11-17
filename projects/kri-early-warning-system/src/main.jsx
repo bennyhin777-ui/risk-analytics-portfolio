@@ -20,21 +20,21 @@ function App() {
       <header className="topbar">
         <a className="brand" href="#top">
           <span className="brand-mark">KR</span>
-          <span><strong>KRI Early-Warning System</strong><small>Operational resilience</small></span>
+          <span><strong>Banking AI Model-Risk Early Warning</strong><small>MLOps · Reliability · Responsible AI</small></span>
         </a>
       </header>
 
       <main id="top" className="page-width">
         <section className="hero">
-          <p className="kicker">Operational resilience</p>
-          <h1>Connect operational signals to owners and <em>actions.</em></h1>
-          <p className="hero-lede">Monitor key risk indicators before a small issue becomes a customer-impacting event. Each indicator has an owner, a level, and a clear next action. Switch between 7, 30, and 90 days to see how indicators evolve.</p>
+          <p className="kicker">AI reliability and governance</p>
+          <h1>Connect model signals to owners and <em>actions.</em></h1>
+          <p className="hero-lede">Monitor drift, hallucinations, groundedness, latency, cost, and privacy signals before a small AI issue becomes a customer-impacting event. Every indicator has an owner, severity, and next action.</p>
         </section>
 
         <section style={{ paddingTop: 20 }}>
           <div className="section-heading">
-            <div><p className="kicker">Control room</p><h2>Key risk indicators</h2></div>
-            <p className="section-note">Overall operating health with owner-assigned indicators, threshold tracking, and action digest generation. Every value, level, and trend updates with the selected period.</p>
+            <div><p className="kicker">AI control room</p><h2>Model-risk indicators</h2></div>
+            <p className="section-note">Overall AI system health with owner-assigned indicators, threshold tracking, and action-digest generation. Every value, level, and trend updates with the selected period.</p>
           </div>
           <div className="kri-demo">
             <div className="kri-period-bar">
@@ -70,8 +70,8 @@ function App() {
         </section>
 
         <footer className="footer page-width">
-          <span>© 2026 Bennyhin Bapanapalli</span>
-          <span>KRI Early-Warning System</span>
+          <span>© 2026 Benny Hinn</span>
+          <span>Banking AI Model-Risk Early Warning</span>
         </footer>
       </main>
       {toast && <div className="toast">{toast}</div>}

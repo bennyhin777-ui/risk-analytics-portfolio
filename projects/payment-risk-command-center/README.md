@@ -1,33 +1,17 @@
-# Payment Risk Command Center
+# Banking AI Operations Command Center
 
-A decision workspace for balancing fraud loss, approval rate, and customer friction across payment rails.
+An AI observability workspace for banking teams. Explore model quality, retrieval health, service reliability, workflow volume, and human-review signals across customer service, compliance, and risk operations.
 
 ## Features
 
-- Risk signal trend chart over selectable periods (7 / 30 / 90 days)
-- Portfolio exposure mix by payment rail (Card, ACH, Real-time)
-- Transaction decision queue with searchable, color-coded risk scores
-- Portfolio health metrics (exposure, approval rate, fraud loss avoided, review queue)
-- Export and case-management handoff actions
+- Groundedness and AI quality trend views
+- Banking workflow workload mix
+- Searchable AI evaluation and review queue
+- Period-based operating metrics
+- Export and action-review interactions
 
-## Tech stack
+## Tech focus
 
-- React + Vite
-- Manrope + DM Mono typography
-- Custom design system (teal / amber / blue / coral on deep navy)
-- Fully responsive
+React, Vite, AI observability concepts, banking operations, responsive product design.
 
-## Getting started
-
-```bash
-npm install
-npm run dev      # local development
-npm run build    # production build
-npm run preview  # preview production build
-```
-
-## About
-
-Built by Bennyhin Bapanapalli — 4+ years in payments risk, fraud analytics, and business analysis across Stripe, Coinbase, and Amazon environments.
-
-© 2026 Bennyhin Bapanapalli
+© 2026 Benny Hinn

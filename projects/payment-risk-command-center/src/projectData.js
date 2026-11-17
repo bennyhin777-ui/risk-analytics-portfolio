@@ -3,10 +3,10 @@ export const PERIODS = ['7 days', '30 days', '90 days'];
 export const periodData = {
   '7 days': {
     stats: [
-      { label: 'Portfolio exposure', value: '$2.18M', change: '+3.1%', good: false },
-      { label: 'Approval rate', value: '95.2%', change: '+0.8%', good: true },
-      { label: 'Fraud loss avoided', value: '$47K', change: '+12.6%', good: true },
-      { label: 'Review queue', value: '312', change: '-4.3%', good: true },
+      { label: 'AI workload volume', value: '$2.18M', change: '+3.1%', good: false },
+      { label: 'Groundedness rate', value: '95.2%', change: '+0.8%', good: true },
+      { label: 'Policy violations blocked', value: '$47K', change: '+12.6%', good: true },
+      { label: 'Human review queue', value: '312', change: '-4.3%', good: true },
     ],
     chart: {
       points: [40, 52, 38, 61, 48, 73, 65, 88],
@@ -26,10 +26,10 @@ export const periodData = {
   },
   '30 days': {
     stats: [
-      { label: 'Portfolio exposure', value: '$8.42M', change: '+6.2%', good: false },
-      { label: 'Approval rate', value: '96.8%', change: '+1.4%', good: true },
-      { label: 'Fraud loss avoided', value: '$184K', change: '+18.4%', good: true },
-      { label: 'Review queue', value: '1,284', change: '-8.1%', good: true },
+      { label: 'AI workload volume', value: '$8.42M', change: '+6.2%', good: false },
+      { label: 'Groundedness rate', value: '96.8%', change: '+1.4%', good: true },
+      { label: 'Policy violations blocked', value: '$184K', change: '+18.4%', good: true },
+      { label: 'Human review queue', value: '1,284', change: '-8.1%', good: true },
     ],
     chart: {
       points: [35, 49, 42, 66, 58, 82, 71, 91],
@@ -51,10 +51,10 @@ export const periodData = {
   },
   '90 days': {
     stats: [
-      { label: 'Portfolio exposure', value: '$24.7M', change: '+9.8%', good: false },
-      { label: 'Approval rate', value: '97.4%', change: '+2.1%', good: true },
-      { label: 'Fraud loss avoided', value: '$612K', change: '+22.7%', good: true },
-      { label: 'Review queue', value: '3,840', change: '-11.5%', good: true },
+      { label: 'AI workload volume', value: '$24.7M', change: '+9.8%', good: false },
+      { label: 'Groundedness rate', value: '97.4%', change: '+2.1%', good: true },
+      { label: 'Policy violations blocked', value: '$612K', change: '+22.7%', good: true },
+      { label: 'Human review queue', value: '3,840', change: '-11.5%', good: true },
     ],
     chart: {
       points: [28, 38, 52, 45, 61, 55, 72, 68, 80, 76, 88, 95],

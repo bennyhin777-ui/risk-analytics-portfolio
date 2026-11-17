@@ -1,32 +1,17 @@
-# KRI Early-Warning System
+# Banking AI Model-Risk Early Warning
 
-Connect operational signals to owners and actions before a small issue becomes a customer-impacting event.
+An MLOps and responsible-AI control room for banking AI systems. Connect hallucination, retrieval, drift, latency, cost, privacy, and inference signals to owners and next actions.
 
 ## Features
 
-- Overall operating health score with breach / watch / healthy levels
-- Owner-assigned key risk indicators with threshold tracking
-- Per-indicator action plan access
-- Action digest generation for weekly risk review
+- Overall AI system health score
+- Owner-assigned model-risk indicators
+- Threshold-based healthy, watch, and breach states
+- Period-based trend review
+- Action-plan and action-digest interactions
 
-## Tech stack
+## Tech focus
 
-- React + Vite
-- Manrope + DM Mono typography
-- Custom design system (coral accent on deep navy)
-- Fully responsive
+React, Vite, MLOps, model-risk management, AI reliability, responsible AI, banking operations.
 
-## Getting started
-
-```bash
-npm install
-npm run dev      # local development
-npm run build    # production build
-npm run preview  # preview production build
-```
-
-## About
-
-Built by Bennyhin Bapanapalli — 4+ years in payments risk, fraud analytics, and business analysis across Stripe, Coinbase, and Amazon environments.
-
-© 2026 Bennyhin Bapanapalli
+© 2026 Benny Hinn

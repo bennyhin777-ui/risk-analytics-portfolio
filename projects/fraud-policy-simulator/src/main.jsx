@@ -19,21 +19,21 @@ function App() {
       <header className="topbar">
         <a className="brand" href="#top">
           <span className="brand-mark">FP</span>
-          <span><strong>Fraud Policy Simulator</strong><small>Test policy changes before production</small></span>
+          <span><strong>Banking LLM Guardrail Simulator</strong><small>Test AI policies before production</small></span>
         </a>
       </header>
 
       <main id="top" className="page-width">
         <section className="hero">
-          <p className="kicker">Risk strategy lab</p>
-          <h1>Make the cost of every control <em>visible.</em></h1>
-          <p className="hero-lede">Adjust the auto-review threshold and see the projected impact on legitimate approvals, fraud loss prevented, and review volume before any change reaches production.</p>
+          <p className="kicker">Responsible AI lab</p>
+          <h1>Make the cost of every AI control <em>visible.</em></h1>
+          <p className="hero-lede">Adjust guardrails and evaluation thresholds to see the projected impact on groundedness, latency, cost, refusals, and human-review volume before a banking AI workflow reaches production.</p>
         </section>
 
         <section style={{ paddingTop: 20 }}>
           <div className="section-heading">
-            <div><p className="kicker">Policy lab</p><h2>Threshold simulator</h2></div>
-            <p className="section-note">Move the slider to explore the tradeoff between protection and friction. The recommended operating point balances both.</p>
+            <div><p className="kicker">LLM evaluation lab</p><h2>Guardrail threshold simulator</h2></div>
+            <p className="section-note">Move the slider to explore the tradeoff between model quality, customer experience, compute cost, and human oversight. The recommended operating point balances all four.</p>
           </div>
           <div className="policy-demo">
             <div className="policy-control">
@@ -80,8 +80,8 @@ function App() {
         </section>
 
         <footer className="footer page-width">
-          <span>© 2026 Bennyhin Bapanapalli</span>
-          <span>Fraud Policy Simulator</span>
+          <span>© 2026 Benny Hinn</span>
+          <span>Banking LLM Guardrail Simulator</span>
         </footer>
       </main>
       {toast && <div className="toast">{toast}</div>}

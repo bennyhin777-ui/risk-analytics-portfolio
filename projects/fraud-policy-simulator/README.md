@@ -1,32 +1,17 @@
-# Fraud Policy Simulator
+# Banking LLM Guardrail Simulator
 
-Test policy changes before they reach production and make the cost of every control visible.
+A responsible-AI simulation workspace for testing banking LLM policies before production. Explore the tradeoff between answer quality, speed, cost, refusals, and human oversight.
 
 ## Features
 
-- Adjustable risk-score threshold (auto-review above a configurable score)
-- Live projected impact on legitimate approvals, fraud loss prevented, and review volume
+- Adjustable guardrail and quality threshold
+- Projected groundedness and response impact
+- Human-review volume modeling
 - Recommended operating point with rationale
-- Save scenario and export review packet actions
+- Save scenario and export interactions
 
-## Tech stack
+## Tech focus
 
-- React + Vite
-- Manrope + DM Mono typography
-- Custom design system (amber accent on deep navy)
-- Fully responsive
+React, Vite, LLM evaluation, policy simulation, responsible AI, banking controls.
 
-## Getting started
-
-```bash
-npm install
-npm run dev      # local development
-npm run build    # production build
-npm run preview  # preview production build
-```
-
-## About
-
-Built by Bennyhin Bapanapalli — 4+ years in payments risk, fraud analytics, and business analysis across Stripe, Coinbase, and Amazon environments.
-
-© 2026 Bennyhin Bapanapalli
+© 2026 Benny Hinn

@@ -16,21 +16,21 @@ function App() {
       <header className="topbar">
         <a className="brand" href="#top">
           <span className="brand-mark">RA</span>
-          <span><strong>Requirements-to-Risk Analyst</strong><small>Human-in-the-loop AI</small></span>
+          <span><strong>Banking AI Requirements Copilot</strong><small>Human-in-the-loop AI product discovery</small></span>
         </a>
       </header>
 
       <main id="top" className="page-width">
         <section className="hero">
-          <p className="kicker">Human-in-the-loop AI</p>
-          <h1>Turn messy stakeholder language into <em>usable requirements.</em></h1>
-          <p className="hero-lede">Feed in a stakeholder transcript and get structured user stories, risk controls, and clarification questions — with detected intents and risk tensions surfaced for review.</p>
+          <p className="kicker">Human-in-the-loop AI product discovery</p>
+          <h1>Turn banking conversations into <em>shippable AI requirements.</em></h1>
+          <p className="hero-lede">Feed in a stakeholder transcript and get user stories, RAG controls, evaluation criteria, governance questions, and delivery risks — with human review built into the workflow.</p>
         </section>
 
         <section style={{ paddingTop: 20 }}>
           <div className="section-heading">
-            <div><p className="kicker">AI business analysis</p><h2>Transcript to requirements</h2></div>
-            <p className="section-note">The left panel shows the stakeholder input with detected signals. The right panel shows the structured output ready for review.</p>
+            <div><p className="kicker">AI product engineering</p><h2>Transcript to AI requirements</h2></div>
+            <p className="section-note">The left panel shows stakeholder input and detected signals. The right panel turns it into structured AI product output ready for engineering, risk, and compliance review.</p>
           </div>
           <div className="requirements-demo">
             <div className="transcript">
@@ -83,8 +83,8 @@ function App() {
         </section>
 
         <footer className="footer page-width">
-          <span>© 2026 Bennyhin Bapanapalli</span>
-          <span>Requirements-to-Risk Analyst</span>
+          <span>© 2026 Benny Hinn</span>
+          <span>Banking AI Requirements Copilot</span>
         </footer>
       </main>
       {toast && <div className="toast">{toast}</div>}

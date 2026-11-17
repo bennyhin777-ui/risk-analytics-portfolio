@@ -84,10 +84,10 @@ export const kriData = {
     level: 'Healthy',
     summary: 'All leading indicators within threshold. No open breaches in the last 7 days.',
     rows: [
-      { name: 'Chargeback rate', value: '1.42%', change: '-0.18%', level: 'Healthy', owner: 'Payments ops' },
-      { name: 'Manual review backlog', value: '312', change: '-4.3%', level: 'Healthy', owner: 'Risk operations' },
-      { name: 'Reconciliation breaks', value: '8', change: '-6.1%', level: 'Healthy', owner: 'Finance controls' },
-      { name: 'Failed payment rate', value: '2.91%', change: '-0.12%', level: 'Healthy', owner: 'Product' },
+      { name: 'Hallucination rate', value: '1.42%', change: '-0.18%', level: 'Healthy', owner: 'AI operations' },
+      { name: 'Evaluation backlog', value: '312', change: '-4.3%', level: 'Healthy', owner: 'Model operations' },
+      { name: 'RAG retrieval failures', value: '8', change: '-6.1%', level: 'Healthy', owner: 'AI governance' },
+      { name: 'Inference failure rate', value: '2.91%', change: '-0.12%', level: 'Healthy', owner: 'Platform engineering' },
     ],
   },
   '30 days': {
@@ -95,10 +95,10 @@ export const kriData = {
     level: 'Watch',
     summary: 'One leading indicator has breached its threshold. Two owners have open actions.',
     rows: [
-      { name: 'Chargeback rate', value: '1.84%', change: '+0.42%', level: 'Breach', owner: 'Payments ops' },
-      { name: 'Manual review backlog', value: '1,284', change: '+18.2%', level: 'Watch', owner: 'Risk operations' },
-      { name: 'Reconciliation breaks', value: '23', change: '-12.0%', level: 'Healthy', owner: 'Finance controls' },
-      { name: 'Failed payment rate', value: '3.26%', change: '+0.08%', level: 'Watch', owner: 'Product' },
+      { name: 'Hallucination rate', value: '1.84%', change: '+0.42%', level: 'Breach', owner: 'AI operations' },
+      { name: 'Evaluation backlog', value: '1,284', change: '+18.2%', level: 'Watch', owner: 'Model operations' },
+      { name: 'RAG retrieval failures', value: '23', change: '-12.0%', level: 'Healthy', owner: 'AI governance' },
+      { name: 'Inference failure rate', value: '3.26%', change: '+0.08%', level: 'Watch', owner: 'Platform engineering' },
     ],
   },
   '90 days': {
@@ -106,10 +106,10 @@ export const kriData = {
     level: 'Watch',
     summary: 'Two indicators in breach over the quarter. Backlog trending up with seasonal volume.',
     rows: [
-      { name: 'Chargeback rate', value: '2.12%', change: '+0.70%', level: 'Breach', owner: 'Payments ops' },
-      { name: 'Manual review backlog', value: '3,840', change: '+24.5%', level: 'Breach', owner: 'Risk operations' },
-      { name: 'Reconciliation breaks', value: '41', change: '+5.2%', level: 'Watch', owner: 'Finance controls' },
-      { name: 'Failed payment rate', value: '3.61%', change: '+0.43%', level: 'Watch', owner: 'Product' },
+      { name: 'Hallucination rate', value: '2.12%', change: '+0.70%', level: 'Breach', owner: 'AI operations' },
+      { name: 'Evaluation backlog', value: '3,840', change: '+24.5%', level: 'Breach', owner: 'Model operations' },
+      { name: 'RAG retrieval failures', value: '41', change: '+5.2%', level: 'Watch', owner: 'AI governance' },
+      { name: 'Inference failure rate', value: '3.61%', change: '+0.43%', level: 'Watch', owner: 'Platform engineering' },
     ],
   },
 };

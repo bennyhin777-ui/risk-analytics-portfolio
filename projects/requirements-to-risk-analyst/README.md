@@ -1,32 +1,17 @@
-# Requirements-to-Risk Analyst
+# Banking AI Requirements Copilot
 
-Turn messy stakeholder language into usable requirements, controls, acceptance criteria, and questions.
+A human-in-the-loop AI product discovery tool for banking teams. Turn stakeholder conversations into shippable AI requirements, RAG controls, evaluation criteria, and governance questions.
 
 ## Features
 
-- Stakeholder transcript input with detected intents and risk tensions
-- AI-generated user stories, risk controls, and clarification questions
-- Tabbed output for structured review (User stories / Risk controls / Questions)
-- Human review interface with export to stakeholder approval packet
+- Stakeholder transcript input
+- Detected intents, tensions, and missing criteria
+- AI user stories and acceptance-ready outputs
+- RAG controls and human-review fallbacks
+- Clarification questions for product, engineering, risk, and compliance
 
-## Tech stack
+## Tech focus
 
-- React + Vite
-- Manrope + DM Mono typography
-- Custom design system (blue accent on deep navy)
-- Fully responsive
+React, Vite, requirements engineering, AI governance, human-in-the-loop product design.
 
-## Getting started
-
-```bash
-npm install
-npm run dev      # local development
-npm run build    # production build
-npm run preview  # preview production build
-```
-
-## About
-
-Built by Bennyhin Bapanapalli — 4+ years in payments risk, fraud analytics, and business analysis across Stripe, Coinbase, and Amazon environments.
-
-© 2026 Bennyhin Bapanapalli
+© 2026 Benny Hinn
